@@ -2,6 +2,8 @@ body {
     background-color: #1F2937;
 }
 
+/* Header & footer */
+
 header, footer {
     background-color: #1F2937;
     color: #F9FAF8;
@@ -27,6 +29,8 @@ a {
 a:hover {
     color: #3882F6;
 }
+
+/* First section */
 
 .signup {
     display: flex;
@@ -56,6 +60,8 @@ a:hover {
     align-self: flex-end;
 }
 
+/* Second Section */
+
 .third-section {
     background-color: #F9FAF8;
     color: #1F2937;
@@ -76,6 +82,8 @@ a:hover {
     border: 2px solid #3882F6;
 }
 
+/* Quote */ 
+
 .inspiring-quote {
     background-color: #E5E7EB;
     color: #1F2937;
@@ -90,8 +98,10 @@ a:hover {
     justify-content: right;
 }
 
+/* Call To Action */
+
 .fifth-section {
-    background-color: #E5E7EB;
+    background-color: #F9FAF8;
 }
 
 .call-to-action {
