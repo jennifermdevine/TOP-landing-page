@@ -21,6 +21,10 @@ footer {
     display: flex;
 }
 
+.header-links {
+    display: flex;
+}
+
 a {
     padding: 8px;
     color: #F9FAF8;
@@ -45,12 +49,12 @@ a:hover {
     color: #E5E7EB;
 }
 
-.second-section-btn {
+.first-section-btn {
     background-color: #3882F6;
     color: #F9FAF8;
 }
 
-.second-section {
+.first-section {
     display: flex;
     background-color: #1F2937;
 }
@@ -62,7 +66,7 @@ a:hover {
 
 /* Second Section */
 
-.third-section {
+.section-section {
     background-color: #F9FAF8;
     color: #1F2937;
 }
@@ -100,11 +104,13 @@ a:hover {
 
 /* Call To Action */
 
-.fifth-section {
+.fourth-section {
     background-color: #F9FAF8;
 }
 
 .call-to-action {
+    background-color: #3882F6;
+    border-radius: 25px;
     display: flex;
     flex-direction: column;
 }
