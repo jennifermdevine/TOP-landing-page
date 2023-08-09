@@ -1,31 +1,32 @@
 body {
     background-color: #1F2937;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    color: #F9FAF8;
 }
 
 /* Header & footer */
 
-header, footer {
-    background-color: #1F2937;
-    color: #F9FAF8;
+.nav {
     display: flex;
-    align-items: center;
+    flex-direction: row;
     justify-content: space-between;
-}
-
-footer {
-    justify-content: center;
-}
-
-.logo {
-    font-size: 24px;
-    display: flex;
 }
 
 .header-links {
     display: flex;
 }
 
+.logo {
+    font-size: 24px;
+}
+
 a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 8px;
     color: #F9FAF8;
 }
@@ -34,13 +35,24 @@ a:hover {
     color: #3882F6;
 }
 
+footer {
+    display: flex;
+    justify-content: center;
+}
+
 /* First section */
 
-.signup {
+h1 {
+    padding: 0;
+    margin: 0;
+}
+
+.first-section {
     display: flex;
-    flex-direction: column;
+}
+
+.signup {
     font-size: 24px;
-    background-color: #1F2937;
     color: #F9FAF8;
 }
 
@@ -54,31 +66,26 @@ a:hover {
     color: #F9FAF8;
 }
 
-.first-section {
-    display: flex;
-    background-color: #1F2937;
-}
-
-.placeholder-image {
-    background-color: #1F2937;
-    align-self: flex-end;
-}
-
 /* Second Section */
 
 .section-section {
-    background-color: #F9FAF8;
-    color: #1F2937;
+    
 }
 
 .random-information {
     display: flex;
     justify-content: center;
+    background-color: #F9FAF8;
+    color: #1F2937;
+    padding: 40px;
 }
 
 .four-images {
     display: flex;
     justify-content: space-evenly;
+    background-color: #F9FAF8;
+    color: #1F2937;
+    padding: 60px;
 }
 
 .img1, .img2, .img3, .img4 {
@@ -91,31 +98,39 @@ a:hover {
 .inspiring-quote {
     background-color: #E5E7EB;
     color: #1F2937;
+    padding: 150px;
 }
 
 .quote {
     font-size: 26px;
+    margin: 0;
 }
 
 .signature {
     display: flex;
     justify-content: right;
+    margin: 0;
+
 }
 
 /* Call To Action */
 
 .fourth-section {
     background-color: #F9FAF8;
+    padding: 40px;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
 .call-to-action {
     background-color: #3882F6;
     border-radius: 25px;
+    padding: 20px 20px;
     display: flex;
-    flex-direction: column;
 }
 
 .signup-btn {
-    display: flex;
-    align-self: flex-end;
+    margin: 50px;
 }
